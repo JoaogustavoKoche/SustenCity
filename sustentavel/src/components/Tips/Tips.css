@@ -1,0 +1,74 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .tips-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .tips-title {
+    font-size: 32px;
+    color: #6dbb7e;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .tips-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .tip-item {
+    background-color: #eef9f0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .tip-item:hover {
+    background-color: #d7f0db;
+  }
+  
+  .tip-item h3 {
+    font-size: 22px;
+    color: #4d9370;
+    margin-bottom: 10px;
+  }
+  
+  .tip-item p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+
+  /* src/pages/Tips.css */
+.comments-button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.comments-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4d9370;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.comments-button:hover {
+  background-color: #357a50;
+}
+
+  

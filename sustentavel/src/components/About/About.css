@@ -1,0 +1,111 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .about-header {
+    background-color: #6dbb7e;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .about-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .about-header p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Conteúdo da seção */
+  .about-content {
+    margin: 40px 0;
+  }
+  
+  .about-content h2 {
+    font-size: 28px;
+    color: #6dbb7e;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p, .about-content ul {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-content ul li {
+    background-color: #eef9f0;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-content ul li:hover {
+    background-color: #d7f0db;
+  }
+  
+  .about-content ul li strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Time */
+  .about-team {
+    background-color: #e0f0eb;
+    padding: 30px 20px;
+    border-radius: 8px;
+  }
+  
+  .about-team h2 {
+    font-size: 28px;
+    color: #4d9370;
+  }
+  
+  .about-team p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  /* Rodapé */
+  .about-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6dbb7e;
+    color: white;
+    border-radius: 8px;
+    margin-top: 40px;
+  }
+  
+  .about-footer a {
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .about-footer a:hover {
+    color: #cfe9d7;
+  }
+  

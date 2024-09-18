@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./Header.css";
 
 export const Header = () => {
@@ -10,10 +11,12 @@ export const Header = () => {
         </div>
 
         <div className="nav-links">
-            <a href='www.google.com' target='_blank'>Home</a>
-            <a href='www.google.com' target='_blank'>Dicas</a >
-            <a href='www.google.com' target='_blank'>Sobre nos</a>
+          <Link to="/home">Home</Link>
+          <Link to="/tips">Dicas</Link>
+          <Link to="/about">Sobre Nós</Link>
         </div>
     </div>
   )
 }
+
+export default Header;
