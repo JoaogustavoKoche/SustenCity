@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SustenCity/static/css/main.e3f76354.css",
+    "main.js": "/SustenCity/static/js/main.d1305f3c.js",
+    "static/js/453.b71aec23.chunk.js": "/SustenCity/static/js/453.b71aec23.chunk.js",
+    "static/media/fruit.jpg": "/SustenCity/static/media/fruit.ff07ce179d6493d447e1.jpg",
+    "static/media/sustenlogo.jpg": "/SustenCity/static/media/sustenlogo.1fa6727921e7f3ddd886.jpg",
+    "index.html": "/SustenCity/index.html",
+    "main.e3f76354.css.map": "/SustenCity/static/css/main.e3f76354.css.map",
+    "main.d1305f3c.js.map": "/SustenCity/static/js/main.d1305f3c.js.map",
+    "453.b71aec23.chunk.js.map": "/SustenCity/static/js/453.b71aec23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3f76354.css",
+    "static/js/main.d1305f3c.js"
+  ]
+}
